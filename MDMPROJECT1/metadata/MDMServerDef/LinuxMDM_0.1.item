@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdmmetadata:MDMServerDef xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:mdmmetadata="http://www.talend.org/metadata/mdmserverdef" xmi:id="_xwhVsHfOEeeoBqy04xXccA" name="LinuxMDM" label="" host="10.0.0.104" passwd="KmPzHJIPq/CRBgAuS8IA2A==" port="8080" url="http://10.0.0.104:8080/talendmdm/services/soap" user="tpearson" algorithm="CommonV2"/>
