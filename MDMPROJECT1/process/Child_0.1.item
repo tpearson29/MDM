@@ -156,7 +156,7 @@
       <column comment="" key="false" length="8" name="data" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="8" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="reference:namegenerator" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="320">
+  <node componentName="REFERENCE:namegenerator" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="namegenerator_1"/>
     <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
@@ -168,7 +168,7 @@
     <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tFixedFlowInput_1"/>
     <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_2" value="COMPONENT_OK"/>
     <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_2:COMPONENT_LIST" value=""/>
-    <elementParameter field="TEXT" name="LABEL" value="reference:namegenerator"/>
+    <elementParameter field="TEXT" name="LABEL" value="REFERENCE:namegenerator"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
