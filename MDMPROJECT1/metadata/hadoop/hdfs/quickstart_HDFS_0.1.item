@@ -1,2 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendHDFS:HDFSConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmi:id="__6D1EJziEeeONNruryzSlg" name="quickstart_HDFS" label="quickstart_HDFS" relativeHadoopClusterId="_cro_gJziEeeONNruryzSlg" userName="cloudera" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;|&quot;" useHeader="true" headerValue="1" firstLineCaption="true"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendHDFS:HDFSConnection xmi:id="__6D1EJziEeeONNruryzSlg" name="quickstart_HDFS" label="quickstart_HDFS" dataPackage="_USl88J2-EeetCOymZNTrIA" relativeHadoopClusterId="_cro_gJziEeeONNruryzSlg" userName="cloudera" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;|&quot;" useHeader="true" headerValue="1" firstLineCaption="true"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_USl88J2-EeetCOymZNTrIA" name="HDFS" dataManager="__6D1EJziEeeONNruryzSlg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_USl88Z2-EeetCOymZNTrIA" name="SampleWagerText" id="_Bq4QYJ29EeetCOymZNTrIA" label="SampleWagerText">
+      <taggedValue xmi:id="_USl88p2-EeetCOymZNTrIA" tag="Comment" value=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8852-EeetCOymZNTrIA" label="accountid" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl89J2-EeetCOymZNTrIA" label="racedate" length="-1" talendType="id_Date" nullable="false" pattern="&quot;M/d/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl89Z2-EeetCOymZNTrIA" label="racedateid" length="10" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl89p2-EeetCOymZNTrIA" label="wagerdate" length="20" talendType="id_Date" nullable="false" pattern="&quot;M/d/yyyy H:mm"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8952-EeetCOymZNTrIA" label="wagerplatform" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8-J2-EeetCOymZNTrIA" label="sellagent" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8-Z2-EeetCOymZNTrIA" label="tvgtrackcode" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8-p2-EeetCOymZNTrIA" label="trackname" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8-52-EeetCOymZNTrIA" label="race" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8_J2-EeetCOymZNTrIA" label="racepriced" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8_Z2-EeetCOymZNTrIA" label="bettype" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8_p2-EeetCOymZNTrIA" label="betname" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl8_52-EeetCOymZNTrIA" label="bettypegroup" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9AJ2-EeetCOymZNTrIA" label="bettypegroup2" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9AZ2-EeetCOymZNTrIA" label="betstatus" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9Ap2-EeetCOymZNTrIA" label="state" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9A52-EeetCOymZNTrIA" label="statename" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9BJ2-EeetCOymZNTrIA" label="zipcode" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9BZ2-EeetCOymZNTrIA" label="territory" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9Bp2-EeetCOymZNTrIA" label="sourcemarketdescription" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9B52-EeetCOymZNTrIA" label="devicetype" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9CJ2-EeetCOymZNTrIA" label="deviceos" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9CZ2-EeetCOymZNTrIA" label="toteassociationid" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9Cp2-EeetCOymZNTrIA" label="toteassociation_abbreviation" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9C52-EeetCOymZNTrIA" label="toteassociation_name" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9DJ2-EeetCOymZNTrIA" label="breedid" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9DZ2-EeetCOymZNTrIA" label="breedname" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9Dp2-EeetCOymZNTrIA" label="racedate_dim_id" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9D52-EeetCOymZNTrIA" label="track_dim_id" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9EJ2-EeetCOymZNTrIA" label="financetrack" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USl9EZ2-EeetCOymZNTrIA" label="race_row_id" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkAJ2-EeetCOymZNTrIA" label="grosshandle" length="12" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkAZ2-EeetCOymZNTrIA" label="refundamount" length="12" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkAp2-EeetCOymZNTrIA" label="cancelamount" length="12" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkA52-EeetCOymZNTrIA" label="grosswinnings" length="12" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkBJ2-EeetCOymZNTrIA" label="pl" length="12" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkBZ2-EeetCOymZNTrIA" label="wageramountbase" length="12" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkBp2-EeetCOymZNTrIA" label="fedwithheld" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkB52-EeetCOymZNTrIA" label="statewithheld" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkCJ2-EeetCOymZNTrIA" label="commission" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkCZ2-EeetCOymZNTrIA" label="breakageneg" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkCp2-EeetCOymZNTrIA" label="breakagepos" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkC52-EeetCOymZNTrIA" label="settlement" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkDJ2-EeetCOymZNTrIA" label="payout" length="12" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkDZ2-EeetCOymZNTrIA" label="workercomp" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkDp2-EeetCOymZNTrIA" label="orstatefee" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USmkD52-EeetCOymZNTrIA" label="qhpurse" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLEJ2-EeetCOymZNTrIA" label="statefee" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLEZ2-EeetCOymZNTrIA" label="breedersfund" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLEp2-EeetCOymZNTrIA" label="losalamitospursefund" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLE52-EeetCOymZNTrIA" label="sb1072fee" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLFJ2-EeetCOymZNTrIA" label="monarchpurses" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLFZ2-EeetCOymZNTrIA" label="hostfee" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLFp2-EeetCOymZNTrIA" label="netrevenue" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLF52-EeetCOymZNTrIA" label="sourcemarketfee" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLGJ2-EeetCOymZNTrIA" label="handle" length="10" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLGZ2-EeetCOymZNTrIA" label="grossrevenue" length="10" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_USnLGp2-EeetCOymZNTrIA" label="hostfeerebate" length="10" precision="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <additionalProperties xmi:id="_USnLG52-EeetCOymZNTrIA" key="HDFS_PATH" value="/user/cloudera/wagerdata/SampleWagerText.txt"/>
+      <additionalProperties xmi:id="_USnLHJ2-EeetCOymZNTrIA" key="HDFS_FILE_TYPE" value="TEXT"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>
