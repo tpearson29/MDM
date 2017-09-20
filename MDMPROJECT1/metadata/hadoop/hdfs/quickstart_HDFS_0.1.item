@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendHDFS:HDFSConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmi:id="__6D1EJziEeeONNruryzSlg" name="quickstart_HDFS" label="quickstart_HDFS" relativeHadoopClusterId="_cro_gJziEeeONNruryzSlg" userName="cloudera" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;;&quot;"/>
+<TalendHDFS:HDFSConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmi:id="__6D1EJziEeeONNruryzSlg" name="quickstart_HDFS" label="quickstart_HDFS" relativeHadoopClusterId="_cro_gJziEeeONNruryzSlg" userName="cloudera" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;|&quot;" useHeader="true" headerValue="1" firstLineCaption="true"/>
