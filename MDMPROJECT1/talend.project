@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_FvYiwXfNEee0uvT9pYFwzQ" label="MDMProject1" description="My Linux MDM Project" language="java" technicalLabel="MDMPROJECT1" creationDate="2017-08-02T21:52:59.000+0000" author="_FvYiwnfNEee0uvT9pYFwzQ" referencedProjects="_uzTi4ZP3EeeRP_825U9_nw" productVersion="Talend Data Fabric-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/tpearson29/MDM&quot;,&quot;login&quot;:&quot;tpearson29&quot;,&quot;passwd&quot;:&quot;93yhOStxGpyK/MOqJbQx6w==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_FvYiwXfNEee0uvT9pYFwzQ" label="MDMProject1" description="My Linux MDM Project" language="java" technicalLabel="MDMPROJECT1" creationDate="2017-08-02T14:52:59.000-0700" author="_FvYiwnfNEee0uvT9pYFwzQ" referencedProjects="_uzTi4ZP3EeeRP_825U9_nw" productVersion="Talend Data Fabric-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/tpearson29/MDM&quot;,&quot;login&quot;:&quot;tpearson29&quot;,&quot;passwd&quot;:&quot;93yhOStxGpyK/MOqJbQx6w==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_HT5CcHfNEee0uvT9pYFwzQ" label="development" code="DEV"/>
     <technicalStatus xmi:id="_HT5CcXfNEee0uvT9pYFwzQ" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_HT5CcnfNEee0uvT9pYFwzQ" label="production" code="PROD"/>
@@ -26,6 +26,7 @@
       <relatedItems xmi:id="_UI-0oH1qEeeBs7gKV9mhww" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_UI-0oX1qEeeBs7gKV9mhww" id="TalendStringUtil" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ytbZoJP4EeeRP_825U9_nw" id="_You-IJP3Eeeuec68-nTyCg" version="Latest" type="joblet"/>
+      <relatedItems xmi:id="_yiNQAKUuEeea4rzqMGGC2g" id="_Pcse0KUuEeemE_c40yGRgw" version="Latest" type="job"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_cw8v8H1qEeeBs7gKV9mhww">
       <baseItem xmi:id="_cw8v8X1qEeeBs7gKV9mhww" id="_iNa1IH1pEeeBs7gKV9mhww" version="0.1" type="job"/>
