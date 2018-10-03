@@ -111,5 +111,5 @@
     <routinesParameter id="_HbBlMHfNEee0uvT9pYFwzQ" name="TalendStringUtil"/>
     <routinesParameter id="_Ha_I8HfNEee0uvT9pYFwzQ" name="TalendString"/>
   </parameters>
-  <note opaque="true" posX="256" posY="160" sizeHeight="64" sizeWidth="96" text="V1"/>
+  <note opaque="true" posX="256" posY="160" sizeHeight="64" sizeWidth="96" text="V2"/>
 </talendfile:ProcessType>
